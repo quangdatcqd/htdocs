@@ -1,0 +1,16 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteRule ^$ site/ [L]
+RewriteRule ^xac-minh-ban-be/$ site/controllers/home.php?act=findfriends [L]
+RewriteRule ^check-voucher/$ site/controllers/home.php?act=checkvoucher [L]
+RewriteRule ^lay-so-dien-thoai/$ site/controllers/home.php?act=getnumber [L]
+RewriteRule ^bigc-check/$ site/controllers/home.php?act=bigc_check [L]
+RewriteRule ^submit-fr/$ site/controllers/home.php?act=findfriends [L]
+RewriteRule ^submit-fr-decode/$ site/controllers/home.php?act=findfriends&type=decode [L]
+RewriteRule ^submit-check-vc/$ site/controllers/home.php?act=checkvoucher [L] 
+RewriteRule ^postnumber/([0-9]{10})  site/controllers/home.php?act=postphone&sdt=$1 [L]
+RewriteRule ^update/$ site/controllers/home.php?act=update [L]
+RewriteRule ^delete/$ site/controllers/home.php?act=delete [L]
+RewriteRule ^mapbank/$ site/controllers/home.php?act=mapbank [L]
+RewriteRule ^post-account$ site/controllers/home.php?act=themtaikhoan [L]
+ErrorDocument 404 /zalo/site/404.html

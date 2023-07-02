@@ -1,0 +1,4 @@
+RewriteEngine on
+deny from all
+RewriteBase /
+ErrorDocument 404 http://www.example.com/404.html

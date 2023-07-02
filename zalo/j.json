@@ -1,0 +1,21 @@
+{
+    "status_code": 200,
+    "success": true,
+    "message": "successful",
+    "data": {
+        "id": "ff01345e7f92852dbf617d750f9aec4b",
+        "phone_number": "878553538",
+        "service_id": 28,
+        "service_name": "Zalo / Zalopay",
+        "status": 0,
+        "messages": [{
+            "sms_from": "ZaloPay",
+            "sms_content": "ZaloPay: Ma OTP cua ban la 225423. Ma nay se het han trong 5 phut. KHONG chia se ma OTP duoi bat ky hinh thuc nao.",
+            "otp": "225423",
+            "is_audio": false,
+            "created_at": "2021-05-19 01:07:33"
+        }],
+        "created_at": "2021-05-19 01:03:39",
+        "done_at": "2021-05-19 01:07:31"
+    }
+}
